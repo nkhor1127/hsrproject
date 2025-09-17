@@ -17,3 +17,12 @@ Actual Data:
 Real-world gacha pull data and in-game income were manually tracked and recorded in an Excel spreadsheet. This included the pity count for each pull, the entity type (character or light cone), and the rarity of the item obtained. This highlights a key part of the data collection process and shows attention to detail in tracking real-world game performance.
 
 The simulated data was pre-processed in Python to calculate key metrics, including the pity, count of pulls at each pity, a cumulative_count, and the cumulative_probability of getting a 5-star.
+
+
+Key findings from the analysis include:
+
+Cumulative Probability: The probability of winning a 5-star increases slowly up to about 74 pulls, then rises sharply from pull 75 to 90.
+
+Rarity Distribution: The simulation shows that 3-star entities were the most common at 85.49% of all pulls, followed by 4-star at 12.94%, and 5-star at 1.57%.
+
+50/50 Win Rate: The simulation had a 50/50 win rate of 66.73%.
