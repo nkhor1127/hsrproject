@@ -17,7 +17,6 @@ The goal is to apply real-world analytics skills—probability modeling, forecas
 ## Data & Methods
 - **Actual Data:**  
   - Pull history and Stellar Jade income tracked in Excel  
-  - Cleaned and prepared for analysis  
 
 - **Simulated Data:**  
   - Python script runs 10,000 gacha trials  
@@ -25,8 +24,8 @@ The goal is to apply real-world analytics skills—probability modeling, forecas
   - Outputs pity distribution and probability curves  
 
 - **Analysis Steps:**  
-  1. Built rarity distribution and pity tracking in Excel  
-  2. Simulated outcomes with Python (`gachasim.ipynb`)  
+  1. Built rarity distribution and actual gacha pity tracking in Excel  
+  2. Simulated probability outcomes with Python (`gachasim.ipynb`)  
   3. Imported results into Power BI for visualization  
 
 ---
@@ -42,7 +41,6 @@ The goal is to apply real-world analytics skills—probability modeling, forecas
 ## Dashboard
 The Power BI dashboard includes:  
 - **Rarity Distribution Pie Chart** – % of 3★, 4★, 5★ pulls  
-- **Pity Histogram** – how often 5★ occurred at each pity count  
-- **Expected vs Actual Comparison** – simulated probabilities vs. real results  
+- **Line Chart** – how often 5★ occurred at each pity count (cumulative probability)  
 - **KPI Cards** – total pulls, 5★ count, % 5★, average pity  
 
