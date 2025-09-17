@@ -1,5 +1,5 @@
 # hsrproject
-HSR Simulation and Dashboard
+Honkai: Star Rail Simulation and Dashboard
 
 This project provides an end-to-end data analysis workflow, from data generation to visualization, to answer a specific question: "How many five-star characters can I realistically pull in Version 3.3 of Honkai: Star Rail?" It models the gacha mechanics of the game to forecast and analyze pull probabilities.
 
