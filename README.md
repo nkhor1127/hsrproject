@@ -1,28 +1,48 @@
 # hsrproject
-Honkai: Star Rail Simulation and Dashboard
+# Honkai: Star Rail Pull Forecasting Project
 
-This project provides an end-to-end data analysis workflow, from data generation to visualization, to answer a specific question: "How many five-star characters can I realistically pull in Version 3.3 of Honkai: Star Rail?" It models the gacha mechanics of the game to forecast and analyze pull probabilities.
+**Tools:** Python, Excel, Power BI  
+**Skills Demonstrated:** Simulation modeling, probability analysis, data cleaning, dashboard design  
 
-The core purpose of this project is to use a data-driven model to forecast how many five-star characters a player can expect to obtain in Version 3.3. This is important for free-to-play (F2P) players who need to manage their limited in-game currency, called Stellar Jade, effectively. 
+---
 
+## Project Overview
+This project explores the gacha system in *Honkai: Star Rail*, focusing on 5★ pull forecasting during Version 3.3.  
+It combines **simulated data** (via Python) with **manually tracked pull history** (Excel) and presents insights in an interactive **Power BI dashboard**.  
 
-The data for this project were generated in two parts:
+The goal is to apply real-world analytics skills—probability modeling, forecasting, and data visualization—to a fun, game-related dataset.
 
-Simulated Data: 
+---
 
-A Python simulation was created to generate a large dataset of gacha pulls. The simulation models the in-game mechanics, including the 50/50 chance of winning the featured character and the "soft pity" system, where odds increase after a certain number of pulls. The simulation output was then exported to a CSV file.
+## Data & Methods
+- **Actual Data:**  
+  - Pull history and Stellar Jade income tracked in Excel  
+  - Cleaned and prepared for analysis  
 
-Actual Data: 
+- **Simulated Data:**  
+  - Python script runs 10,000 gacha trials  
+  - Models pity system and 50/50 mechanics  
+  - Outputs pity distribution and probability curves  
 
-Real-world gacha pull data and in-game income were manually tracked and recorded in an Excel spreadsheet. This included the pity count for each pull, the entity type (character or light cone), and the rarity of the item obtained. This highlights a key part of the data collection process and shows attention to detail in tracking real-world game performance.
+- **Analysis Steps:**  
+  1. Built rarity distribution and pity tracking in Excel  
+  2. Simulated outcomes with Python (`gachasim.ipynb`)  
+  3. Imported results into Power BI for visualization  
 
-The simulated data was pre-processed in Python to calculate key metrics, including the pity, count of pulls at each pity, a cumulative_count, and the cumulative_probability of getting a 5-star.
+---
 
+## Key Insights
+- Most pulls result in 3★ items (~85%).  
+- Probability of obtaining a 5★ rises steeply after 75 pity.  
+- Actual pull history shows streaks of both “early luck” and “high pity.”  
+- Simulation confirms expected 50/50 win-loss outcomes over large sample sizes.  
 
-Key findings from the analysis include:
+---
 
-Cumulative Probability: The probability of winning a 5-star increases slowly up to about 74 pulls, then rises sharply from pull 75 to 90.
+## Dashboard
+The Power BI dashboard includes:  
+- **Rarity Distribution Pie Chart** – % of 3★, 4★, 5★ pulls  
+- **Pity Histogram** – how often 5★ occurred at each pity count  
+- **Expected vs Actual Comparison** – simulated probabilities vs. real results  
+- **KPI Cards** – total pulls, 5★ count, % 5★, average pity  
 
-Rarity Distribution: The simulation shows that 3-star entities were the most common at 85.49% of all pulls, followed by 4-star at 12.94%, and 5-star at 1.57%.
-
-50/50 Win Rate: The simulation had a 50/50 win rate of 66.73%.
