@@ -44,7 +44,7 @@ The Power BI dashboard includes:
 - **Line Chart** – how often 5★ occurred at each pity count (cumulative probability)  
 - **KPI Cards** – total pulls, 5★ count, % 5★, average pity
 
-![Dashboard screenshot]("power bi dashboard.png")
+![Power BI Dashboard](power%20bi%20dashboard.png)
 
 ## Reflections
 This was my **first-ever data project**, and I know there are parts that are still rough around the edges. I likely underestimated the complexity of building a full workflow (simulation → cleaning → visualization), but that made it an even better learning experience.  
