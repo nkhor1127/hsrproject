@@ -42,5 +42,18 @@ The goal is to apply real-world analytics skills—probability modeling, forecas
 The Power BI dashboard includes:  
 - **Rarity Distribution Pie Chart** – % of 3★, 4★, 5★ pulls  
 - **Line Chart** – how often 5★ occurred at each pity count (cumulative probability)  
-- **KPI Cards** – total pulls, 5★ count, % 5★, average pity  
+- **KPI Cards** – total pulls, 5★ count, % 5★, average pity
+
+
+
+## Reflections
+This was my **first-ever data project**, and I know there are parts that are still rough around the edges. I likely underestimated the complexity of building a full workflow (simulation → cleaning → visualization), but that made it an even better learning experience.  
+
+Through this project, I was able to gain experience on:  
+- Writing Python scripts to generate data  
+- Cleaning and organizing data in Excel  
+- Designing interactive dashboards in Power BI  
+- Communicating insights in a clear and structured way  
+
+I see plenty of ways this project could be improved, but more importantly, it gave me a foundation to build from. I’m excited to apply what I learned here to future projects and keep refining my skills.  
 
